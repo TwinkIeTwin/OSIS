@@ -59,8 +59,8 @@ namespace Project1
         {
             var read = Console.ReadLine();
             Console.WriteLine(@"Start searching on D:\\");
-            string path_for_search = @"D:\\Osis";
-            string resultFile = "C:\\result.txt";
+            string path_for_search = @"D:\Study\ОСИС\Lab1";
+            string resultFile = "D:\\Study\\ОСИС\\Lab1\\result.txt";
             string[] res = Directory.GetDirectories(path_for_search);
             List<string> all_files = FoundFiles(res, path_for_search, read);
             WriteResult(resultFile, all_files);
